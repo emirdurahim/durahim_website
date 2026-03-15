@@ -10,7 +10,7 @@
 ---
 
 ## 🚀 Overview
-This repository contains the source code for my professional portfolio—a high-performance web application built from the ground up using **Flutter Web**. 
+This repository contains the source code for my professional portfolio: A high-performance web application built from the ground up using **Flutter Web**. 
 
 Moving beyond standard low-code solutions, this project serves as a technical proof-of-concept. It integrates real-time data handling, AI model inference, and complex quantum visualisations into a single, cohesive user experience.
 
@@ -18,7 +18,7 @@ Moving beyond standard low-code solutions, this project serves as a technical pr
 
 ### 1. AI & Quantum Visualisations
 * **In-Browser Inference:** Features a dedicated sub-module for TensorFlow Lite, allowing visitors to interact with AI models directly in the browser.
-* **Quantum Storytelling:** Utilizes `CustomPainter` and `Rive` to create 60 FPS animations that visualize abstract concepts such as **Superposition** and **Neural Network Topologies**.
+* **Quantum Storytelling:** Utilises `CustomPainter` and `Rive` to create 60 FPS animations that visualise abstract concepts such as **Superposition** and **Neural Network Topologies**.
 
 ### 2. The "Lifelong Learner" Architecture
 * **Interactive Journey:** A reactive vertical timeline that tracks my evolution as a developer and researcher.
@@ -26,7 +26,7 @@ Moving beyond standard low-code solutions, this project serves as a technical pr
 
 ### 3. Engineering Excellence
 * **Clean Architecture:** The codebase follows a strict **Feature-First** pattern (Data, Domain, Presentation) to ensure scalability and maintainability.
-* **CanvasKit Rendering:** Optimized for high-fidelity graphics and smooth interaction across all modern browsers.
+* **CanvasKit Rendering:** Optimised for high-fidelity graphics and smooth interaction across all modern browsers.
 * **SEO & Accessibility:** Overcomes standard Flutter Web limitations using the `seo_renderer` package and comprehensive ARIA semantic labeling.
 
 ---
