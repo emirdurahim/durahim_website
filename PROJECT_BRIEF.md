@@ -1,59 +1,70 @@
 # Technical Specification: Professional Portfolio v2.0
-[cite_start]**Developer:** Emir Deniz Durahim [cite: 38]  
-[cite_start]**Specialization:** AI, Application Development, & Quantum Computing [cite: 39]  
-[cite_start]**Primary Stack:** Flutter Web (Dart), Firebase [cite: 22, 23, 40]
+**Developer:** Emir Deniz Durahim  
+**Specialization:** AI, Application Development, & Quantum Computing  
+**Primary Stack:** Flutter Web (Dart), Firebase
+
+---
+
+## 0. AI Development Methodology: "TDD on Steroids"
+This project adheres to a high-performance Systems Engineering approach for AI-assisted development to ensure logic clarity and system correctness:
+
+* **Ambiguity Reduction:** This brief serves as the "source of truth." AI models must first analyze this document to ensure all procedures are clear and step-by-step.
+* **Task Decomposition:** The AI model must break this brief down into the smallest possible functional tasks.
+* **Unit Testing First:** For every small task, Unit Tests must be created *before* the implementation of the actual code.
+* **Implementation Loop:** Code implementation is guided by the AI with a strict requirement that Unit Tests are never broken. This ensures a guaranteed level of correctness.
+* **Integration & Acceptance Testing:** Whenever two pieces of code are integrated, Integration Testing (equivalent to Acceptance Testing) must be performed to verify system-wide logic.
+* **Small-Chunk Generation:** To maintain human oversight and logic comprehension, the AI must generate code in the smallest chunks possible. Avoid large blocks of generated code to maintain a clear abstraction hierarchy.
+* **Model Consistency:** A single AI model will be chosen and utilized consistently to master its specific logic-handling and utilization methods.
 
 ---
 
 ## 1. Project Objective & Executive Summary
-[cite_start]The goal is to engineer a high-performance, custom Flutter web application to replace a generic Wix site[cite: 42]. [cite_start]This project serves as a living proof-of-concept of technical expertise in high-complexity fields (AI and Quantum Computing) through sophisticated interactive storytelling and optimized performance[cite: 4, 43].
+The goal is to engineer a high-performance, custom Flutter web application to replace a generic Wix site. This project serves as a living proof-of-concept of technical expertise in high-complexity fields (AI and Quantum Computing) through sophisticated interactive storytelling and optimized performance.
 
 ## 2. Technical Architecture
 To ensure a professional-grade build, the following stack and patterns are mandatory:
 
-* [cite_start]**Framework:** Flutter Web (Stable Channel)[cite: 45].
-* [cite_start]**State Management:** Riverpod or Provider (Standardize for scalability and clean code)[cite: 46].
-* [cite_start]**Rendering Engine:** CanvasKit (Mandatory for complex AI/Quantum visualizations to maintain 60 FPS)[cite: 49].
-* [cite_start]**Backend & Hosting:** * **Firebase Hosting:** For SSL-secured, rapid delivery[cite: 47].
-    * [cite_start]**Cloud Firestore:** To manage dynamic content for the Gallery and Activities sections, demonstrating CRUD capabilities[cite: 48].
-* [cite_start]**Directory Structure:** Follow the **Feature-First** or **Clean Architecture** pattern (`/data`, `/domain`, `/presentation`)[cite: 75].
+* **Framework:** Flutter Web (Stable Channel).
+* **State Management:** Riverpod or Provider (Standardize for scalability and clean code).
+* **Rendering Engine:** CanvasKit (Mandatory for complex AI/Quantum visualizations to maintain 60 FPS).
+* **Backend & Hosting:** * **Firebase Hosting:** For SSL-secured, rapid delivery.
+    * **Cloud Firestore:** To manage dynamic content for the Gallery and Activities sections, demonstrating CRUD capabilities.
+* **Directory Structure:** Follow the **Feature-First** or **Clean Architecture** pattern (`/data`, `/domain`, `/presentation`).
 
 ## 3. Core Features & Page Specifications
 
 ### 3.1 Landing Page ("The Hook")
-* [cite_start]**Objective:** Immediate professional engagement[cite: 7, 31].
-* [cite_start]**Visuals:** A high-impact hero section utilizing `CustomPainter` or Rive animations representing Neural Networks or Quantum Superposition[cite: 52].
-* [cite_start]**Call to Action (CTA):** Direct links to "View Research" and "Contact Me"[cite: 53].
+* **Objective:** Immediate professional engagement.
+* **Visuals:** A high-impact hero section utilizing `CustomPainter` or Rive animations representing Neural Networks or Quantum Superposition.
+* **Call to Action (CTA):** Direct links to "View Research" and "Contact Me".
 
 ### 3.2 Interactive Resume & Learning Journey
-* [cite_start]**Theme:** "Lifelong Learner"[cite: 14, 15].
-* [cite_start]**Timeline:** An interactive, scrollable vertical timeline showcasing education and professional growth[cite: 55].
-* [cite_start]**Skill Visualization:** Dynamic Radar Charts or Animated Progress Bars showing proficiency in Dart, Python, and Qiskit[cite: 56].
-* [cite_start]**Validation:** Dedicated sections for certifications, awards, and testimonials[cite: 17].
+* **Theme:** "Lifelong Learner".
+* **Timeline:** An interactive, scrollable vertical timeline showcasing education and professional growth.
+* **Skill Visualization:** Dynamic Radar Charts or Animated Progress Bars showing proficiency in Dart, Python, and Qiskit.
+* **Validation:** Dedicated sections for certifications, awards, and testimonials.
 
 ### 3.3 Activities & Portfolio Page
-* [cite_start]**Requirement:** Detailed project displays demonstrating value and technical skill[cite: 32, 33, 36].
+* **Requirement:** Detailed project displays demonstrating value and technical skill.
 * **Project Cards:** Each entry must detail:
-    * [cite_start]The "Why" (Problem/Outcome)[cite: 34, 60].
-    * [cite_start]The "How" (Stack icons/Technologies used)[cite: 34, 61].
-    * [cite_start]Links to Code Repositories and Live Demos[cite: 35, 62].
-* [cite_start]**AI Feature:** A live inference model demo (e.g., TensorFlow Lite running in-browser)[cite: 12, 63].
+    * The "Why" (Problem/Outcome).
+    * The "How" (Stack icons/Technologies used).
+    * Links to Code Repositories and Live Demos.
+* **AI Feature:** A live inference model demo (e.g., TensorFlow Lite running in-browser).
 
 ### 3.4 Multi-Tiered Gallery
-* [cite_start]**Structure:** A detailed gallery with dedicated sub-tabs[cite: 28, 29, 65]:
-    * [cite_start]**Academic/Research:** Quantum papers and posters[cite: 66].
-    * [cite_start]**UI/UX Design:** App development screenshots[cite: 67].
-    * [cite_start]**Community:** Hackathons and innovation engagements[cite: 68].
+* **Structure:** A detailed gallery with dedicated sub-tabs:
+    * **Academic/Research:** Quantum papers and posters.
+    * **UI/UX Design:** App development screenshots.
+    * **Community:** Hackathons and innovation engagements.
 
 ### 3.5 Contact & Social Integration
-* [cite_start]**Contact Form:** Secure Firebase-powered form with field validation[cite: 30, 70].
-* [cite_start]**Socials:** Custom-styled buttons for LinkedIn, GitHub, and Twitter[cite: 6, 71].
+* **Contact Form:** Secure Firebase-powered form with field validation.
+* **Socials:** Custom-styled buttons for LinkedIn, GitHub, and Twitter.
 
 ## 4. Professionalism & Quality Guardrails
-* [cite_start]**Responsiveness:** Implementation of `LayoutBuilder` to ensure a flawless UI across all device sizes (from 4K monitors to mobile)[cite: 73].
-* [cite_start]**SEO:** Use of the `seo_renderer` package to overcome standard Flutter Web SEO limitations[cite: 74].
-* [cite_start]**Accessibility:** Semantic labels for all interactive elements to support screen readers[cite: 76].
-* [cite_start]**Performance Metrics:** * Initial load time < 2.5 seconds[cite: 78].
-    * [cite_start]Lighthouse score of 90+[cite: 80].
-
----
+* **Responsiveness:** Implementation of `LayoutBuilder` to ensure a flawless UI across all device sizes (from 4K monitors to mobile).
+* **SEO:** Use of the `seo_renderer` package to overcome standard Flutter Web SEO limitations.
+* **Accessibility:** Semantic labels for all interactive elements to support screen readers.
+* **Performance Metrics:** * Initial load time < 2.5 seconds.
+    * Lighthouse score of 90+.
